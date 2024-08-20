@@ -1,0 +1,10 @@
+# Set default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always normalize and convert to CRLF on checkout.
+*.py text eol=crlf
+*.txt text eol=crlf
+*.sh text eol=lf
+
+# Declare files that will always have LF line endings on checkout.
+*.sh eol=lf
