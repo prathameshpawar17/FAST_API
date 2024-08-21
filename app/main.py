@@ -3,8 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import cache, sms, employees, auth, textract
 from app.services.sms_gateway import sms_gateway
 from app.core.logging import setup_logging
-from app.db.base import Base
-from app.db.session import engine
+from app.db.database import Base
+from app.db.database import engine
 from app.middleware.correlation_id import CorrelationIdMiddleware
 import asyncio
 import logging

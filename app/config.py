@@ -1,0 +1,6 @@
+import os
+
+SQLALCHEMY_DATABASE_URL = "postgresql://postgres:sunny@localhost:5432/Fast_api_database"
+SECRET_KEY = "791b5fe0ec7f9d1bdb55b8d7d6193b4744292275b05ab2211680f937870e54b9"
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 40
