@@ -1,0 +1,13 @@
+fastapi 
+uvicorn 
+sqlalchemy 
+pydantic 
+alembic 
+psycopg2-binary 
+python-jose 
+passlib 
+python-dotenv 
+pydantic-settings
+fastapi_sqlalchemy
+pydantic[email]
+fastapi-sqlalchemy
